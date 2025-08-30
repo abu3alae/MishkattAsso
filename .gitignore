@@ -1,0 +1,48 @@
+{
+  "name": "eduvue_frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@tailwindcss/forms": "^0.5.9",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
+    "@vueuse/core": "^11.1.0",
+    "axios": "^1.7.7",
+    "axios-mock-adapter": "^2.1.0",
+    "feather-icons": "^4.29.2",
+    "glightbox": "^3.3.0",
+    "ityped": "^1.0.3",
+    "lucide-vue-next": "^0.452.0",
+    "pinia": "^2.2.4",
+    "preline": "^2.5.0",
+    "swiper": "^11.1.15",
+    "tiny-slider": "^2.9.4",
+    "vue": "^3.5.11",
+    "vue-countup-v3": "^1.4.2",
+    "vue-router": "latest",
+    "vue-typewriter-effect": "^1.0.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/ityped": "^1.0.3",
+    "@types/node": "^20.16.11",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "@vue/tsconfig": "^0.5.1",
+    "autoprefixer": "^10.4.21",
+    "dart-sass": "^1.25.0",
+    "iconoir": "^7.11.0",
+    "postcss": "^8.5.6",
+    "sass": "^1.91.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.5.4",
+    "vite": "^5.4.8",
+    "vue-tsc": "^2.1.6"
+  }
+}
